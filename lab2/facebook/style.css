@@ -79,6 +79,7 @@ form input{
     font-size: 12px;
     font-weight: bold;
 }
+
 .btext{
     font-size: 12px;
     color: darkgrey;
@@ -89,4 +90,7 @@ form input{
     font-size: 12px;
     color: darkgrey;
     text-align: center;
+}
+.lefft-text{
+    left: 40px;
 }

@@ -11,7 +11,7 @@ function createTaskElement(text) {
     const todoItem = document.createElement('div');
     todoItem.className = 'todo-item';
     
-    const checkbox = document.createElement('input');
+    const checkbox = document.createElement('input'); 
     checkbox.type = 'checkbox';
     checkbox.className = 'todo-checkbox';
     
@@ -46,8 +46,8 @@ function createTaskElement(text) {
     todoItem.appendChild(checkbox);
     todoItem.appendChild(todoText);
     todoItem.appendChild(deleteButton);
-    
     todoList.appendChild(todoItem);
+
 }
 
 function addTask() {
@@ -75,3 +75,4 @@ taskInput.addEventListener('keypress', function(e) {
         addTask();
     }
 });
+
